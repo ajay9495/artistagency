@@ -1,0 +1,41 @@
+
+.a-wrapper{
+    padding: 15rem 0rem 0rem 0rem;
+}
+
+.about-col{
+    padding: 3rem 0rem 0rem 0rem;
+}
+
+.about-large{
+    color: #fff5;
+    font-size:20rem;
+    font-weight: 1000;
+}
+
+.a-sub-left{
+    padding: 8rem 0rem 8rem 1rem;
+}
+
+
+@media (max-width:576px) {
+
+    .a-wrapper{
+        /* background-color: #fff; */
+        padding: 10rem 0rem 10rem 0rem;
+    }
+
+    .about-col{
+        padding: 5rem 0rem 5rem 0rem;
+    }
+
+    .about-large{
+        font-size:15rem;
+        /* font-weight: 1000; */
+    }
+
+    .a-sub-left{
+        padding: 5rem 1rem 5rem 1rem;
+    }
+
+}

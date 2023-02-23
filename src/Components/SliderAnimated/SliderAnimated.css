@@ -1,0 +1,57 @@
+.sa-wrapper{
+    /* background-color: #afafaf; */
+    width: 100%;
+    aspect-ratio: 2/1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sa-arrows{
+    /* padding: 1rem; */
+    background-color: #fff5;
+    color: #000;
+    font-size: 1rem;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-weight: 1000;
+}
+
+.sa-arrows:hover{
+    background-color: #fff9;
+
+}
+
+.sa-arrow-right{
+    right: 1rem;
+}
+
+.sa-arrow-left{
+    left: 1rem;
+}
+
+
+.sa-image{
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 2/1;
+    background-size: cover;
+    background-position: center;
+}
+
+.sa-footer{
+    height: fit-content;
+    width: fit-content;
+}
+
+
+

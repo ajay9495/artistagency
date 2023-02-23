@@ -1,0 +1,120 @@
+body{
+    background-color: #f8f7f3;
+}
+  
+.txt-white{
+    color: #fff;
+    /* color: #000; */
+}
+  
+.txt-xl{
+    color: #fff;
+    /* color: #000; */
+    font-size: 10rem;
+    font-weight: 700;
+}
+  
+.txt-l{
+    font-size: 3rem;
+    color: #fff;
+    /* color: #000; */
+    font-weight: 800;
+
+}
+  
+.txt-m{
+    font-size: 2rem;  
+    color: #fff;
+    /* color: #000;  */
+
+}
+
+.txt-s{
+    font-size: 1rem;
+    color: #fff;
+    /* color: #000; */
+}
+
+.txt-cursive{
+    font-family: 'Bradley Hand', cursive;
+}
+
+.txt-bold-m{
+    font-weight: 800;
+}
+
+.txt-bold-l{
+    font-weight: 1000;
+}
+
+.btn-primary{
+    background-color: #253499;
+    width: 10rem;
+    height: 3rem;
+    color: #fff;
+    /* color: #000; */
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.btn-primary:hover{
+    background-color: #091772;
+}
+
+
+@media (max-width: 576px) {
+  
+  
+    .txt-xl-s{
+        color: #ffffff;
+        font-size: 6rem;
+        font-weight: 1000;
+    }
+      
+    .txt-l-s{
+        font-size: 3rem;
+    }
+      
+    .txt-m-s{
+        font-size: 1.5rem;    
+    }
+    
+    .txt-s-s{
+        font-size: 1rem;
+    }
+    
+    .txt-cursive-s{
+        font-family: 'Bradley Hand', cursive;
+    }
+    
+    .txt-bold-m-s{
+        font-weight: 500;
+    }
+    
+    .txt-bold-l-s{
+        font-weight: 1000;
+    }
+    
+    .btn-primary-s{
+        background-color: #262354;
+        width: 10rem;
+        height: 3rem;
+        color: #fff;
+        /* color: #000; */
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+    }
+      
+    
+
+}
+
+
+
+

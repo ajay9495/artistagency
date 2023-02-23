@@ -1,0 +1,65 @@
+
+.t-wrapper{
+
+    padding: 15rem 0rem 10rem 0rem;
+    overflow: visible;
+    row-gap: 10rem !important;
+}
+
+.t-outer-box{
+    /* background-color: #afafaf ; */
+    width: 60rem;
+    height: 30rem;
+    overflow: visible;
+    border: 10px solid #ffffff;
+    margin-left: -3rem;
+}
+
+.t-inner-box{
+    width: 60rem;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-top: -3rem;
+    margin-left: 3rem;
+    background-color: #000;
+}
+
+
+
+
+@media (max-width:576px) {
+
+    .t-wrapper{
+
+        padding: 0rem 0rem 10rem 0rem;
+    }
+    
+
+
+    .t-outer-box{
+        /* background-color: #ba3333; */
+        width: 100%;
+        height: auto;
+        margin-left: 0rem;
+        border: 0px solid #ffffff;
+    }
+
+    .t-inner-box{
+        width: 100%;
+        /* background-color: #fff; */
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
